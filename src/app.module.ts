@@ -8,7 +8,7 @@ import { MongooseModule } from '@nestjs/mongoose';
   imports: [
     TodoModule,
     MongooseModule.forRoot(
-      'mongodb+srv://nodejs-workshop:nodejs-workshop@cluster0.096bi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+      'mongodb+srv://nodejs-workshop:nodejs-workshop@cluster0.096bi.mongodb.net/nodejs-workshop?retryWrites=true&w=majority',
     ),
   ],
   controllers: [AppController],
